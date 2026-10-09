@@ -65,6 +65,12 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+  name="three"
+  options={{
+    title: 'Troisième',
+  }}
+/>
     </Tabs>
   );
 }
